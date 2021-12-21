@@ -156,35 +156,35 @@ body {
 }
 
 @media screen and (min-width: 400px) and (max-width: 1439px) {
-    .gallery {
-        max-width: 400px;
-    }
+  .gallery {
+    max-width: 400px;
+  }
 }
 
 @media screen and (max-width: 1439px) {
   .gallery {
     display: flex;
     flex-direction: column;
-    margin: .75rem 0;
+    margin: 0.75rem 0;
   }
 
   .reviewer-1 {
-      order: 1;
+    order: 1;
   }
 
   .reviewer-2 {
-      order: 2;
+    order: 2;
   }
 
   .reviewer-3 {
-      order: 3;
+    order: 3;
   }
 
   .reviewer-4 {
-      order: 4;
+    order: 4;
   }
 
   .reviewer-5 {
-      order: 5;
+    order: 5;
   }
 }
